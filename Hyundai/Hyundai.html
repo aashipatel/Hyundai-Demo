@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IPIX HYUNDAI</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="css/Hyundai.css" rel="stylesheet" /> </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggle_menu" aria-expand="false"> <span class="menu_text clear">Menu</span>
+                        <div class="menu_icons"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </div>
+                    </button>
+                    <button type="button" class="navbar-toggle collapsed">
+                        <a href="https://www.hyundaiusa.com/dealer-locator/#/"> <span class="menu_text clear">Dealer</span>
+                            <div class="menu_icons"> <span class="location_icon"></span> </div>
+                        </a>
+                    </button>
+                    <a class="navbar-brand" onclick="reloadPage()"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="toggle_menu">
+                    <br>
+                    <div class=toggle_menu_logo pull-left> <img src="images/logo.png" width="50"> </div>
+                    <div class="toggle_menu_top_close pull-right">
+                        <a href="/" class="close_menu"><img src="images/close_icon.png" width="28"></a>
+                    </div>
+                    <br/>
+                    <div id="navMenu" class="nav navbar-nav">
+                        <div class="col-nav toggle_subMenus">
+                            <h5 class="underline"><span>Shopping Tools</span></h5>
+                            <div class="links shopping_links">
+                                <ul class="row no-pad">
+                                    <li class="col-xs-x"><a href="https://www.hyundaiusa.com/build-your-hyundai/" rel="external">Build &amp; Price</a></li>
+                                    <li class="col-xs-x"><a href="https://www.hyundaiusa.com/inventory-search/" rel="external">Search Inventory</a></li>
+                                    <li class="col-xs-x"><a href="https://www.hyundaiusa.com/dealer-locator/#/" rel="external">Find a Dealer</a></li>
+                                    <li class="col-xs-x"><a href="/special-offers.aspx" rel="external">Local Offers</a></li>
+                                    <li class="col-xs-x"><a href="/shopping-tools/request-quote.aspx" rel="external">Request a Quote</a></li>
+                                    <li class="col-xs-x"><a href="https://www.hyundaiusa.com/shopping-tools/schedule-test-drive.aspx" rel="external">Schedule a Test Drive</a></li>
+                                    <li class="col-xs-x"><a href="/ebrochure.html" rel="external">E-Brochures</a></li>
+                                    <li class="col-xs-x"><a href="/" rel="external">Vehicle Lineup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-nav toggle_subMenus ">
+                            <h5 class="underline"><span>More Links</span></h5>
+                            <div class="links more_links">
+                                <ul class="row no-pad">
+                                    <li class="col-xs-x"><a href="/assurance/" rel="external">Hyundai Assurance</a></li>
+                                    <li class="col-xs-x"><a href="https://www.hyundaiusa.com/myhyundai/" target="_blank" rel="external">My Hyundai</a></li>
+                                    <li class="col-xs-x"><a href="/newthinking/" rel="external">Why Hyundai</a></li>
+                                    <li class="col-xs-x"><a href="/bluelink/" rel="external">Blue Link<sup>®</sup></a></li>
+                                    <li class="col-xs-x"><a href="/receive_updates.aspx" rel="external">Receive Updates</a></li>
+                                    <li class="col-xs-x"><a href="http://m.hyundaiaccessories.com/" target="_blank" rel="external">Vehicle Accessories</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Slider -->
+    <div class="carousel slide" id="Slider">
+        <ol class="carousel-indicators">
+            <li data-slide-to="0" data-target="#Slider" class="active"></li>
+            <li data-slide-to="1" data-target="#Slider"></li>
+            <li data-slide-to="2" data-target="#Slider"></li>
+            <li data-slide-to="3" data-target="#Slider"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active" id="slide1" onclick="window.location.href='https://www.hyundaiusa.com/veloster/index.aspx'"> </div>
+            <div class="item" id="slide2" onclick="window.location.href='https://www.hyundaiusa.com/sonata/index.aspx'"></div>
+            <div class="item" id="slide3" onclick="window.location.href='https://www.hyundaiusa.com/sonata-hybrid/index.aspx'"></div>
+            <div class="item" id="slide4" onclick="window.location.href='https://www.hyundaiusa.com/tucson/index.aspx'"></div>
+        </div>
+    </div>
+    <!-- Veloster banner -->
+    <div class="row text-center">
+        <div class="bannerContainer">
+            <a href="https://www.hyundaiusa.com/veloster/index.aspx"><img src="images/main_banner.jpg" height="85"></a>
+            <div class="bannerText"> <span>The Veloster Rally</span>
+                <br> <span>Edition is coming soon.</span> <span><img src="images/right_arrow.png" height="25"></span> </div>
+        </div>
+    </div>
+    <!-- Car Selections -->
+    <div class="row">
+        <div class="carselections">
+            <div class="cartitle">Compacts</div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/accent/index.aspx"> <img src="images/2015_accent.png">
+                    <div class="dealerCar pad">2015 Accent</div>
+                    <div class="dealerPrice pad">From $14,745</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/elantra/index.aspx"> <img src="images/2015_elantra.png">
+                    <div class="dealerCar pad">2015 Elantra</div>
+                    <div class="dealerPrice pad">From $17,250</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/elantra/index.aspx"> <img src="images/2015_elantra_coupe.png">
+                    <div class="dealerCar pad">2015 Elantra Coupe</div>
+                    <div class="dealerPrice pad">From $19,600</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/elantra-gt/index.aspx"> <img src="images/2015_elantra_gt.png" />
+                    <div class="dealerCar pad">2015 Elantra GT</div>
+                    <div class="dealerPrice pad">From $18,800</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/veloster/index.aspx"> <img src="images/2015_veloster.png">
+                    <div class="dealerCar pad">2015 Veloster</div>
+                    <div class="dealerPrice pad">From $18,000</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="carselections">
+            <div class="twintitle"> <span class="cartitle">Sedans</span> <span class="cartitle">Crossovers</span> </div> <span class="cartitle crosstitle">Sedans</span>
+            <br class="crosstitle">
+            <div class="featuredcar ">
+                <a href="https://www.hyundaiusa.com/sonata/index.aspx"> <img src="images/2015_sonata.png">
+                    <div class="dealerCar pad">2015 Sonata</div>
+                    <div class="dealerPrice pad">From $21,150</div>
+                </a>
+            </div>
+            <div class="featuredcar ">
+                <a href="https://www.hyundaiusa.com/azera/index.aspx"> <img src="images/2015_azera.png">
+                    <div class="dealerCar pad">2015 Azera</div>
+                    <div class="dealerPrice pad">From $34,000</div>
+                </a>
+            </div> <span class="cartitle crosstitle">Crossovers</span>
+            <br class="crosstitle">
+            <div class="featuredcar ">
+                <a href="https://www.hyundaiusa.com/tucson/index.aspx"> <img src="images/2015_tucson.png" class="smaller_pic">
+                    <div class="dealerCar pad">2015 Tucson</div>
+                    <div class="dealerPrice pad">From $21,650</div>
+                </a>
+            </div>
+            <div class="featuredcar ">
+                <a href="https://www.hyundaiusa.com/santa-fe/index.aspx"> <img src="images/2015_santa_fe.png">
+                    <div class="dealerCar pad">2015 Santa Fe</div>
+                    <div class="dealerPrice pad">From $24,950</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="carselections">
+            <div class="cartitle">Hybrid / Fuel Cell</div>
+            <br />
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/sonata-hybrid/index.aspx"> <img src="images/2015_sonata_hybrid.png">
+                    <div class="dealerCar ">2015 Sonata Hybrid</div>
+                    <div class="dealerPrice">From $26,000</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/tucsonfuelcell/index.aspx"> <img src="images/2015_tucson_fuel_cell.png">
+                    <div class="dealerCar">2015 Tucson Fuel Cell</div>
+                    <div class="dealerPrice">Learn more</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="carselections">
+            <div class="cartitle">Performance / Premium</div>
+            <br />
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/genesis-coupe/index.aspx"> <img src="images/2015_genesis_coupe.png"> <span class="dealerCar">2015 Genesis Coupe</span>
+                    <div class="dealerPrice">From $26,750</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/genesis/index.aspx"> <img src="images/2015_genesis.png">
+                    <div class="dealerCar pad">2015 Genesis</div>
+                    <div class="dealerPrice pad">From $38,000</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/equus/index.aspx"> <img src="images/2015_equus.png">
+                    <div class="dealerCar pad">2015 Equus</div>
+                    <div class="dealerPrice pad">From $61,500</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="carselections">
+            <div class="cartitle">Future Vehicles</div>
+            <br />
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/all-new-sonata-hybrid-plug-in"> <img src="images/sonata_hybrid_plug_in.png">
+                    <div class="dealerCar"> Sonata Hybrid/plug-in</div>
+                    <div class="dealerPrice">Coming soon</div>
+                </a>
+            </div>
+            <div class="featuredcar">
+                <a href="https://www.hyundaiusa.com/veloster/rally.aspx"> <img src="images/veloster_rally_edition.png">
+                    <div class="dealerCar">Veloster Rally Edition</div>
+                    <div class="dealerPrice">Coming soon</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Find Dealer Selections -->
+    <div class="row">
+        <div class="findDealer text-center">
+            <div class="linetext"> <span> Find a Dealer
+                    </span> </div>
+            <div class="findDealer_actions">
+                <div class="my_location pull-left"> Use My Location </div>
+                <div class="pull-right">
+                    <button type="button" class="zip_button">GO </button>
+                </div>
+                <div class="pull-right">
+                    <input type="text" maxlength="5" class="zipcode_input" title="zip code" placeholder="Zip code" /> </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer_wrapper">
+        <div class="container">
+            <div class="shopping_tools">
+                <h5 class="underline"><span>Shopping Tools</span></h5>
+                <div class="shopping_links">
+                    <ul class="row no-pad">
+                        <li class="col-xs-f"><a href="https://www.hyundaiusa.com/build-your-hyundai/" rel="external">Build &amp; Price</a></li>
+                        <li class="col-xs-f"><a href="https://www.hyundaiusa.com/inventory-search/" rel="external">Search Inventory</a></li>
+                        <li class="col-xs-f"><a href="https://www.hyundaiusa.com/dealer-locator/#/" rel="external">Find a Dealer</a></li>
+                        <li class="col-xs-f"><a href="/special-offers.aspx" rel="external">Local Offers</a></li>
+                        <li class="col-xs-f"><a href="/shopping-tools/request-quote.aspx" rel="external">Request a Quote</a></li>
+                        <li class="col-xs-f"><a href="https://www.hyundaiusa.com/shopping-tools/schedule-test-drive.aspx" rel="external">Schedule a Test Drive</a></li>
+                        <li class="col-xs-f"><a href="/trade-in-value">Trade-in Value</a></li>
+                        <li class="col-xs-f"><a href="https://www.hyundaiusa.com/financial-tools/payment-calculator.aspx">Payment Calculator</a></li>
+                        <li class="col-xs-f"><a href="/ebrochure.html" rel="external">E-Brochures</a></li>
+                        <li class="col-xs-f"><a href="/" rel="external">Vehicle Lineup</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="footertitle text-center">
+        <div class="line_imgbox">
+            <div class="line_img">
+                <span><a  href="https://facebook.com/hyundai"><img src="images/icon_facebook.png" class="iconBtn"></a></span>
+                <span><a href="https://twitter.com/hyundai"><img src="images/icon_twitter.png" class="iconBtn"></a></span> 
+                <span><a href="https://instagram.com/hyundai"><img src="images/icon_instagram.png" class="iconBtn"></a></span>
+                <span><a href="https://youtube.com/hyundai"><img src="images/icon_youtube.png" class="iconBtn"></a></span>
+                <span><a href="https://plus.google.com/+Hyundai"><img src="images/icon_google_plus.png" class="iconBtn"></a></span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="footerlogo text-center">
+        <a href="http://test4130.gurasin.com/Hyundai/Hyundai.html"> <img src="images/footer_logo.png" width="350"> </a>
+    </div>
+    <br>
+    <div class="footermessage text-center"> <span>
+                        Hyundai is a registered trademark of Hyundai
+                        </span>
+        <br> <span>Motor Company. All rights reserved.</span>
+        <br> <span>&#169; 2015 Hyundai Motor America</span> </div>
+    <br>
+    <div class="footerlink text-center"> <a href="https://www.hyundaiusa.com/contact-us.aspx">Contact Us 
+                        </a>| <a href="https://www.hyundaiusa.com/terms-conditions.aspx">Terms of use</a> | <a href="https://www.hyundaiusa.com/privacy-policy.aspx">Privacy</a> | <a href="https://www.hyundaiusa.com/legal.aspx">Legal</a> </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

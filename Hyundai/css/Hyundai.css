@@ -1,0 +1,502 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+    .navbar-header{
+        background-color: #fff;
+    }
+
+    .navbar{
+        border: 0;
+    }
+    .navbar-default .navbar-toggle{
+        border: 0;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #2359a8;
+        display: block;
+        margin: 2px 0;
+        width: 16px;
+    }
+
+    .navbar-header button span{
+        vertical-align: middle;
+        display: inline-block;
+
+    }
+
+    .navbar-header button{
+        color: #2359a8;
+        display: inline-block;
+    }
+
+    .menu_text{
+        float: left;
+    }
+
+    .menu_icons{
+        margin-top: 3px;
+        margin-left: 7px;
+        float: right;
+    }
+
+    .location_icon{
+        margin-top: -7px;
+        background: url(../images/icon_location.png) no-repeat;
+        background-size: 100% auto;
+        width: 9px;
+        height: 14px;
+    }
+
+    .navbar-brand{
+        background: url(../images/logo.png) no-repeat;
+        background-size: 100% auto;
+        width: 95px;
+        height: 61px;
+        padding: 0;
+    }
+
+    .navbar-collapse{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0 !important;
+        width: 100%;
+        z-index: 999;
+        background-color: #f2f2f2;
+        padding: 0 20px;
+    }
+
+
+    .toggle_menu_content span{
+        color: #7d868c;
+        position: relative;
+        margin: 10px 0 15px;
+    }
+
+    .toggle_subMenus hr{
+        border-top: 1px solid #b7bcbf;
+        margin-top: 10px;
+    }
+
+    .subMenus_items ul{
+        list-style: none;
+        text-align: center;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .subMenus_items li{
+        line-height: 35px;
+        display: inline-block;
+        width: 49%;
+    }
+
+    #Slider{
+        margin-top: -22px;
+    }
+    .carousel .carousel-indicators{
+        top:10px;
+        right:10px;
+        bottom: auto;
+        left: auto;
+        text-align:right;
+    }
+    .carousel-indicators .active{
+        background-color: #002d73;
+    }
+    .carousel-indicators li{
+        background-color: #C5C5C5;
+        border: 0;
+    }
+     .carousel .carousel-inner .item {
+        height: 300px;
+        cursor: pointer;
+    }
+    
+     #slide1{
+        background: url(../images/carousel_01.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    #slide2{
+        background: url(../images/carousel_02.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    #slide3{
+        background: url(../images/carousel_03.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    #slide4{
+        background: url(../images/carousel_04.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .bannerContainer{
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .bannerText{
+        font-size: 16px;
+        float: right;
+        height: 85px;
+        background-color: #eeeeee;
+        color: #0075c9;
+        padding: 20px;       
+    }
+
+    .bannerText span{
+        float: left;
+    }
+
+    .bannerText span img{
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+     .carselections{
+        margin: 10px auto !important;
+        padding: 0px 30px;
+    }
+    .featuredcar{
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .featuredcar a{
+        text-decoration: none;
+    }
+
+    .featuredcar img{
+        width: 90%;
+        margin: 0 10px;
+    }
+
+    .smallerpic{
+        width: 80% !important;
+    }
+
+    .cartitle{
+        color: #717171;
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    .twintitle span{
+        width: 49%;
+        display: inline-block;
+    } 
+    
+    .dealerCar{
+        color:#0055b8;
+        margin-top: 5px;
+        font-size:14px;
+        font-weight: 200;
+    
+    }
+    .pad {
+        padding-left: 15px;
+    }
+    .dealerPrice{
+        color: #002d73;
+        font-size: 11px; 
+    }
+    .findDealer{
+        background-color: #004282;
+        width: 100%;
+        padding: 20px;
+    }
+    .findDealer .linetext{
+         margin: 0 20px;
+        color: #99ABC4;
+        position: relative;
+    }
+    .findDealer .linetext::before{
+        background-color: #19548F;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        z-index: 1;
+    }
+    .findDealer .linetext  span{
+         background-color: #004282;
+        z-index: 5;
+        position: relative;
+        padding: 0 20px;
+    }
+     .findDealer_actions{
+        margin: 0 auto;
+        padding: 10px 0px;
+        display: inline-block;
+    }
+
+    .my_location{
+        border: 1px solid #ffffff;
+        background: url(../images/icon_location.png) no-repeat 12px 50%;
+        background-size: 10px auto;
+        padding: 3px 13px 4px 28px;
+        color: #ffffff;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        float: right;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 200;
+
+    }
+
+    .zipcode_input{
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 0;
+        vertical-align: middle;
+        float: left;
+        width: 90px;
+        height: 25px;
+        padding: 0 0 0 10px;
+        margin: 0 0 0 35px;
+    }
+    .zip_button{
+        color: #fff;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        background: none;
+        width: 25px;
+        height: 25px;
+        font-size: 11px;
+        padding: 0 0 0 1px;
+        margin: 0 0 0 10px;
+        font-weight: 200;
+    }
+  footer{
+        background-color: #FCFCFC;
+        padding: 20px 35px;
+    }
+    .footertitle{
+         position: relative;
+    }
+    footer .linetext::before{
+        background-color: #CDCDCD;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        z-index: 1;
+    }
+    footer .linetext span{
+        background-color: #FCFCFC;
+        z-index: 5;
+        position: relative;
+        padding: 0 20px;
+        color: #999;
+    }
+     footer .line_img_box::before{
+        background-color: #CDCDCD;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        z-index: 1;
+    }
+     
+
+     .subMenus ul{
+        list-style: none;
+        text-align: center;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .subMenus li{
+        line-height: 35px;
+        display: inline-block;
+        width: 49%;
+    }
+
+ footer .line_imgbox::before{
+        background-color: #CDCDCD;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        z-index: 1;
+    }
+ footer .line_img {
+        background-color: #FCFCFC;
+        z-index: 5;
+        position: relative;
+        padding: 0 10px;
+        display: inline-block;
+    }
+    footer .line_img span{
+        padding: 0px !important;
+    }
+    footer .line_img span img{
+        width: 40px;
+        margin: 0 5px;
+    }
+    .iconBtn{
+        height: 40px;
+    }
+    footer .footermessage{
+         color: #999;
+        font-size: 12px;
+    }
+    footer .footerlink{
+        color:#004282;
+    }
+    footer .footerlink a{
+        text-decoration: none;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.ui-loader{
+    display: none;
+}
+
+
+@media (min-width: 640px) {
+    .col-nav {width:49%;float:left;margin-right:1%;}
+    .col-nav+.col-nav { margin-left:1%; margin-right:0; }
+    .col-nav .col-xs-x {
+      width: 50%;
+    }
+}
+
+#navMenu .links { line-height:40px; margin-bottom:10px; text-align:center; }
+
+#navMenu ul {list-style-type:none;margin:0;padding:0;}
+#navMenu h5 { font-weight:normal; font-size:14px; margin:10px 0; text-transform:none;}
+#navMenu a:link, navMenu a:visited, navMenu a:hover, navMenu a:active { color:#0055b8; }
+#navMenu a:link sub, navMenu a:visited sub, navMenu a:hover sub, navMenu a:active  sub{ color:inherit; }
+#navMenu a:link sup, navMenu a:visited sup, navMenu a:hover sup, navMenu a:active  sup{ color:inherit; }
+    
+.underline  {
+  border-bottom: 1px solid #afafaf;
+  padding:7px 0;
+  text-align:center;
+  color:#7d868c;
+}
+
+.underline span {
+  color:inherit;
+    text-align: center;
+}
+
+
+.col-xs-x {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-x {
+  float: left;
+}
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.col-xs-x {
+  width: 50%;
+}
+
+.col-xs-x.centered {
+  margin-left: 25%;
+}
+
+@media (min-width: 480px)  {
+    .col-xs-x {
+      width: 33.33333333%;
+    }
+	
+    .col-xs-x.centered {
+      width: 100%;
+	  margin-left: 0;
+    }		
+}
+.col-xs-f {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-f {
+  float: left;
+}
+
+.col-xs-f {
+  width: 50%;
+    list-style-type: none;
+    padding: 3px;
+}
+
+.col-xs-f.centered {
+  margin-left: 25%;
+}
+
+@media (min-width: 640px) {
+    .col-xs-f {
+      width: 25%;
+    }
+
+    .col-xs-f.centered {
+      margin-left: 25%;
+    }	
+
+    @media (min-width: 480px)  {
+    .col-xs-f {
+      width: 33.33333333%;
+    }
+	
+    .col-xs-f.centered {
+      width: 100%;
+	  margin-left: 0;
+    }		
+}
+
+@media (min-width: 640px) {
+    .col-xs-f {
+      width: 25%;
+    }
+    .col-xs-f.centered {
+      margin-left: 25%;
+    }	
+}
+        
+.footer_wrapper { padding:22px 2.5% 20px; font-size:13px; }
+.footer_wrapper .shopping_tools {  }
+.footer_wrapper .shopping_links {  }
+.footer_wrapper .shopping_links ul { list-style-type:none;margin:0;padding:0; }
+.footer_wrapper .shopping_links ul li { text-align:center; line-height:30px; margin-top:10px; }
+
+
+ 
